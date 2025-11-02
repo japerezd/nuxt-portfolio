@@ -1,7 +1,7 @@
 <template>
-  <div>
-    This page is about me.
-  </div>
+  <article class="prose dark:prose-invert prose-h1:text-2xl">
+    <ContentDoc />
+  </article>
 </template>
 
 <script setup>
@@ -10,7 +10,7 @@
 //   layout: 'another'
 // })
 
-useHead({
-  title: 'About'
-})
+// useHead({
+//   title: 'About'
+// })
 </script>
